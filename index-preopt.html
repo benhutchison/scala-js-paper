@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Example Scala.js application</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+
+<h1>Paper.js demo - preopt</h1>
+
+<p>After having compiled and optimized properly the code for the application
+(using `sbt optimizeJS`), you should see "It works" here below.
+See README.md for detailed explanations.</p>
+
+<div id="playground">
+</div>
+
+<script type="text/javascript" src="js/paper-full.js"></script>
+<!--<script type="text/javascript" src="./target/scala-2.11/scala-js-paper-extdeps.js"></script>-->
+<!--<script type="text/javascript" src="./target/scala-2.11/scala-js-paper-intdeps.js"></script>-->
+<script type="text/javascript" src="./target/scala-2.11/scala-js-paper-fastopt.js"></script>
+
+<script type="text/javascript">
+PaperDemo().main();
+</script>
+
+</body>
+</html>
