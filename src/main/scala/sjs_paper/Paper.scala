@@ -288,6 +288,7 @@ class Raster protected() extends Item {
 }
 
 @JSName("paper.Group")
+/** [[http://paperjs.org/reference/group/]]  */
 class Group protected() extends Item {
   def this(children: js.Array[Item]) = this()
 
