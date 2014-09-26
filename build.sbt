@@ -13,7 +13,7 @@ libraryDependencies +=
 
 scalaJSSettings
 
-lazy val example = project.dependsOn(root)
+lazy val example = project
 
 lazy val root =  (project in file("."))
 
