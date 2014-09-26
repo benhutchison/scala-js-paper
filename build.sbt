@@ -11,8 +11,6 @@ libraryDependencies +=
 
 scalaJSSettings
 
-utest.jsrunner.Plugin.utestJsSettings
-
 lazy val example = project.dependsOn(root)
 
 lazy val root =  (project in file("."))
